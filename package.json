@@ -1,0 +1,45 @@
+{
+  "name": "laravel-sessdata",
+  "description": "A simple way to access laravel session data",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ifeora Okechukwu",
+    "email": "isocroft@gmail.com"
+  },
+  "contributors": [
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isocroft/laravel-sessdata"
+  },
+  "homepage": "http://blog.coolandcodes.com",
+  "keywords": [
+    "laravel",
+    "store"
+  ],
+  "dependencies": {
+     "phpjs":"*",
+     "crypto-js":"*",
+     "redis":"*".
+     "q":"*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": ""
+  },
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/isocroft/laravel-sessdata/issues"
+  }
+}

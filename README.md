@@ -2,8 +2,8 @@
 
 A simple way to access and update Laravel application session data from a NodeJS application
 
-  *NPM* [npm-url]
-  *Download* [downloads-url]
+   [npm-url](NPM)
+   [downloads-url](Download)
 
 ## Installation
 
@@ -74,7 +74,7 @@ $ npm install
 
 ## Tests
 
-  Can't run tests at the moment.
+  Sorry, no tests setup at the moment (but you can help out...).
 
 ## License
 

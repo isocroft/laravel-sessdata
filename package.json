@@ -21,7 +21,7 @@
   "dependencies": {
      "phpjs":"*",
      "crypto-js":"*",
-     "redis":"*".
+     "redis":"*",
      "q":"*"
   },
   "devDependencies": {

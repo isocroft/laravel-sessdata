@@ -17,7 +17,7 @@ $ npm install laravel-sessdata
 ```js
 
 /**
- * It might be easier to supply the app key and cache congig prefix using
+ * It might be easier to supply the app key and cache config prefix using
  * the popular dotenv module so the values can be accessed like so: 
  *
  *    - process.env.LARAVEL_APP_KEY

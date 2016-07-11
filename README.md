@@ -2,8 +2,8 @@
 
 A simple way to access and update Laravel application session data from a NodeJS application
 
-   [npm-url](NPM)
-   [downloads-url](Download)
+   (NPM)[npm-url]
+   (Download)[downloads-url]
 
 ## Installation
 
@@ -16,11 +16,11 @@ $ npm install laravel-sessdata
 ```js
 
 /**
- * It might be easier to supply the app key and key prefix using
- * the popular dotenv module so the values can be accessed like so 
+ * It might be easier to supply the app key and cache congig prefix using
+ * the popular dotenv module so the values can be accessed like so: 
  *
  *    - process.env.LARAVEL_APP_KEY
- *    - process.env.SESSION_KEY_PREFIX
+ *    - process.env.CACHE_KEY_PREFIX
  *
  * Note: laravel-sessdata requires that on a standard HTTP request, the 
  *       cookie for the laravel session is available else the package
@@ -30,13 +30,13 @@ $ npm install laravel-sessdata
 
 'use strict'; 
 
-var sess = require('laravel-sessdata')( {{ YOUR LARAVEL_APP_KEY }} , {{ YOUR SESSION_KEY_PREFIX }} );
+var sess = require('laravel-sessdata')( {{ YOUR LARAVEL_APP_KEY }} , {{ YOUR CACHE_KEY_PREFIX }} );
 
 // set up the redis end (this should be the same as the Laravel session store you have set up)
 // the first argument is required (laravel session cookie value), the rest are optional depending 
 // on your configurations. The second argument is the redis DB index, the third is the DB port number, 
 // the last argument is the IP address. 
-sess.db({{ YOUR LARAVEL_SESSION_COOKIE }}, 0, 6379, '127.0.0.1').then(function(){
+sess.db({{ YOUR LARAVEL_SESSION_COOKIE_VALUE }}, 0, 6379, '127.0.0.1').then(function(){
 
       // retrieve all values at once (without keys)
       var all = sess.all();
@@ -80,5 +80,5 @@ $ npm install
 
   MIT LICENSE
 
-[npm-url]: https://npmjs.org/package/laravel-sessdata
-[downloads-url]: https://npmjs.org/package/laravel-sessdata
+[npm-url]: https://npmjs.com/package/laravel-sessdata
+[downloads-url]: https://npmjs.com/package/laravel-sessdata

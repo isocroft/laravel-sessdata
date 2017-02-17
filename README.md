@@ -63,7 +63,7 @@ sess.db({{ YOUR LARAVEL_SESSION_COOKIE_VALUE }}, 0, 6379, '127.0.0.1').then(func
   * Makes use of the configured redis store for Laravel application
   * Works with Laravel 4.* and 5.* 
   
-## Build
+## Build (for Devs only)
 
   To build right from the repo (in case you would like to make contributions or peruse the code):
 
@@ -73,7 +73,7 @@ $ cd laravel-sessdata
 $ npm install
 ```
 
-## Tests
+## Tests (for Devs only)
 
   Sorry, no tests setup at the moment (but you can help out...).
 

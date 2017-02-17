@@ -75,7 +75,7 @@ $ npm install
 
 ## Tests (for Devs only)
 
-  Sorry, no tests setup at the moment (but you can help out...).
+  Sorry, no tests setup at the moment.
 
 ## License
 
